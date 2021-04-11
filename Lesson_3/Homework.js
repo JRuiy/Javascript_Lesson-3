@@ -22,16 +22,7 @@ console.log('<---------------------------------->');
 //Task 3
 
 function find(arr, value){
-	let flag = false;
-	for (let i = 0; i<arr.length; i++){
-		if(arr[i] == value){
-			console.log(i);
-			flag = true;
-		}
-	}
-	if (!flag){
-		console.log(-1);
-	}
+	console.log(arr.indexOf(value));
 }
 
 find(styles, 'Rep');
